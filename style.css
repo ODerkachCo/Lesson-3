@@ -1,0 +1,44 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#clock{
+	display: flex;
+	width: 200px;
+	height: 200px;
+	background-color: #1E3670;
+	border-radius: 10px;
+	opacity: .9;
+	position: absolute;
+	margin: 0;
+	top: 50%;
+	left: 50%;
+}
+#number {
+	position: absolute;
+	font-size: 72px;
+	color: #fff;
+	margin: 0;
+	top: 56px;
+	left: 80px;
+	font-weight: bold;
+}
+.buttons{
+	width: 100%;
+	padding: 10px 20px;
+	margin: 0px;
+	position: absolute;
+	bottom: 0;
+
+}
+#button{
+	border-radius: 4px;
+	border: 0px;
+	cursor: pointer;
+	padding: 2px;
+	font-size: 22px;
+}
+#button:hover{
+	background: green;
+	color: #fff;
+}
